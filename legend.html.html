@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История Porsche</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            position: relative; /* Для позиционирования кнопки */
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header img {
+            width: 100px; /* Размер логотипа */
+            height: auto;
+            margin-right: 10px;
+        }
+        nav {
+            background-color: #333;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .car-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+/* Стили для кнопки "Наверх" */
+        #back-to-top {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+        #back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Добавляем якорь для перемещения -->
+    <header id="top">
+        <div style="display: flex; align-items: center;">
+            <img src="https://avatars.mds.yandex.net/i?id=776dd42c4d6753bae29f824d5abc3667_l-5876519-images-thumbs&n=13" alt="Логотип Porsche">
+            <h1 style="margin-left: 10px;">Легендарные авто</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="early-years.html">Ранние годы</a>
+        <a href="post-war-era.html">Послевоенный период</a>
+        <a href="modern-times.html">Современность</a>
+        <a href="legend.html">Легенды</a>
+    </nav>
+    <main>
+        <h2>Добро пожаловать!</h2>
+        <p>Porsche — один из старейших и самых престижных автомобильных брендов в мире.</p>
+        <!-- Фотография автомобиля -->
+        <img class="car-image" src="https://www.motorcarsofjackson.com/galleria_images/270/270_main_f.jpg" alt="Porsche Panamera">
+        <!-- Таблица характеристик -->
+        <table>
+            <caption>Характеристики Porsche Panamera</caption>
+            <thead>
+                <tr>
+                    <th>Параметр</th>
+                    <th>Значение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Год выпуска</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Тип двигателя</td>
+                    <td>8-цилиндровый рядный двигатель</td>
+                </tr>
+                <tr>
+                    <td>Объем двигателя</td>
+                    <td>4.0 литра</td>
+                </tr>
+                <tr>
+                    <td>Мощность</td>
+                    <td>500 л.с.</td>
+                </tr>
+                <tr>
+                    <td>Максимальная скорость</td>
+                    <td>310 км/ч</td>
+                </tr>
+                <tr>
+                    <td>Разгон до 100 км/ч</td>
+                    <td>3.3 секунды</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Дополнительная фотография -->
+        <img class="car-image" src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65be82897b4435789dd6b0a6_65be836faf602052226d494c/scale_1200" alt="Porsche Panamera">
+        <!-- Вторая таблица характеристик -->
+        <table>
+            <caption>Характеристики Porsche Cayenne </caption>
+            <thead>
+                <tr>
+                    <th>Параметр</th>
+                    <th>Значение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Год выпуска</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Тип двигателя</td>
+                    <td>V6 Turbo</td>
+                </tr>
+                <tr>
+                    <td>Объем двигателя</td>
+                    <td>4.0 литра</td>
+                </tr>
+                <tr>
+                    <td>Мощность</td>
+                    <td>485 л.с.</td>
+                </tr>
+                <tr>
+                    <td>Максимальная скорость</td>
+                    <td>288 км/ч (ограничена)</td>
+                </tr>
+                <tr>
+                    <td>Разгон до 100 км/ч</td>
+                    <td>4.5 секунды</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2025 История Porsche</p>
+</footer>
+
+    <!-- Кнопка "Наверх" -->
+    <a href="start.html" id="back-to-top">Обратно в начало</a>
+</body>
+</html>
